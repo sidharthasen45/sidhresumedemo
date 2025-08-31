@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname">First name</label>
+        <input id="fname" type="text" minlength="5" maxlength="12" required>
+        <label for="">Last name</label>
+        <input type="text" disabled>
+        <br><br>
+        <label for="ag">Age</label>
+        <input id="ag" type="number">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password">
+        <br><br>
+        <label for="">Email</label>
+        <input type="email">
+        <br><br>
+        <label for="">Your joining date</label>
+        <input type="date">
+        <br><br>
+        <label for="">Select Sports</label>
+        <br><br>
+        <input type="radio" name="Select Sports" id="crick"> <label for="crick">Cricket</label>
+        <input type="radio" name="Select Sports" id="foot" checked><label for="foot">Football</label>
+        <input type="radio" name="Select Sports" id="Hoc"><label for="Hoc">Hocky</label>
+        <br><br>
+        <label for="">Plz choose your t-shirt color</label>
+        <input type="color">
+        <br><br>
+        <label for="payment choose">Choose your payment option:- </label>
+        <select name="payment" id="payment choose">
+            <option value=""></option>
+            <option value="">gpay</option>
+            <option value="">phonepe</option>
+            <option value="">paytm</option>
+            <option value="">amazon pay</option>
+        </select>
+        <br><br>
+        <label for="">Choose your hobby :-</label>
+        <input type="checkbox" name="Your habby" id="crik"><label for="crik">Cricket</label>
+        <input type="checkbox" name="Your habby" id="foo" checked><label for="foo">football</label>
+        <input type="checkbox" name="Your habby" id="ho" checked><label for="ho">hocky</label>
+        <input type="checkbox" name="Your habby" id="vol"><label for="vol">volleyball</label>
+
+        <br><br>
+        <label for="comts">plz comment:- </label>
+       <textarea name="comment" 
+       id="comts" 
+       rows="12" 
+       cols="60" placeholder="jaldi.."></textarea>
+      <br><br>
+      <input type="reset">
+      <input type="submit">
+    </form>
+</body>
+</html>
